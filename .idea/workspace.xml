@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96c7c0d2-ebae-422b-b6be-836dea0d7393" name="Default" comment="Added AR reports">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoice/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/invoice/views.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/qbetl$tests.coverage" NAME="tests Coverage Results" MODIFIED="1528130864732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/invoice" />
+    <SUITE FILE_PATH="coverage/qbetl$invoiceoperation.coverage" NAME="invoiceoperation Coverage Results" MODIFIED="1528131743513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/invoice" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1149044260">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="881" />
+          <entry key="txt" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Python" value="881" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qbetl/devsettings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qbetl/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+              <folding>
+                <element signature="e#629#661#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/invoice/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="282" column="44" selection-start-line="282" selection-start-column="29" selection-end-line="282" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="145" column="25" selection-start-line="145" selection-start-column="21" selection-end-line="145" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/invoice/invoiceoperation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2232">
+              <caret line="133" column="21" selection-start-line="133" selection-start-column="21" selection-end-line="133" selection-end-column="21" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>MEDIA</find>
+      <find>create_invoice_obj_legacy</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/invoice/management/commands/csvimport.py" />
+        <option value="$PROJECT_DIR$/invoice/management/commands/customers.py" />
+        <option value="$PROJECT_DIR$/qbconnect/admin.py" />
+        <option value="$PROJECT_DIR$/invoice/celery.py" />
+        <option value="$PROJECT_DIR$/celery.py" />
+        <option value="$PROJECT_DIR$/qbetl/__init__.py" />
+        <option value="$PROJECT_DIR$/invoice/management/commands/importcsv.py" />
+        <option value="$PROJECT_DIR$/qbetl/celery.py" />
+        <option value="$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/auth.py" />
+        <option value="$PROJECT_DIR$/qbconnect/views.py" />
+        <option value="$PROJECT_DIR$/invoice/customerrors.py" />
+        <option value="$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/client.py" />
+        <option value="$PROJECT_DIR$/invoice/tests.py" />
+        <option value="$PROJECT_DIR$/qbetl/devsettings.py" />
+        <option value="$PROJECT_DIR$/qbconnect/models.py" />
+        <option value="$PROJECT_DIR$/invoice/admin.py" />
+        <option value="$PROJECT_DIR$/invoice/restviewsets.py" />
+        <option value="$PROJECT_DIR$/invoice/management/commands/qbobjects.py" />
+        <option value="$PROJECT_DIR$/invoice/models.py" />
+        <option value="$PROJECT_DIR$/invoice/restserilizers.py" />
+        <option value="$PROJECT_DIR$/invoice/csvfileutils.py" />
+        <option value="$PROJECT_DIR$/qbetl/settings.py" />
+        <option value="$PROJECT_DIR$/qbetl/urls.py" />
+        <option value="$PROJECT_DIR$/invoice/invoiceoperation.py" />
+        <option value="$PROJECT_DIR$/invoice/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="51" />
+    <option name="y" value="24" />
+    <option name="width" value="1280" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="qbetl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qbetl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qbetl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qbetl" type="462c0819:PsiDirectoryNode" />
+              <item name="qbetl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qbetl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="urls&#9;FILE&#9;file:///home/murthy/PycharmProjects/qbetl/qbetl/urls.py&#10;se&#9;FILE&#9;file:///home/murthy/PycharmProjects/qbetl/qbetl/settings.py&#10;model&#9;FILE&#9;file:///home/murthy/PycharmProjects/qbetl/invoice/models.py&#10;csv&#9;null&#9;null&#10;CsvFileRes&#9;null&#9;null&#10;Invoice&#9;FILE&#9;file:///home/murthy/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/objects/invoice.py&#10;mode&#9;FILE&#9;file:///home/murthy/PycharmProjects/qbetl/invoice/models.py&#10;cel&#9;FILE&#9;file:///home/murthy/PycharmProjects/qbetl/qbetl/celery.py&#10;client&#9;FILE&#9;file:///home/murthy/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/client.py&#10;Taxcode&#9;null&#9;null&#10;Tax&#9;FILE&#9;file:///home/murthy/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/objects/taxcode.py&#10;Ta&#9;FILE&#9;file:///home/murthy/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/objects/taxrate.py&#10;TaxRate&#9;FILE&#9;file:///home/murthy/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/objects/taxrate.py&#10;TA&#9;FILE&#9;file:///home/murthy/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/objects/taxcode.py&#10;view&#9;FILE&#9;file:///home/murthy/PycharmProjects/qbetl/invoice/views.py&#10;rest&#9;FILE&#9;file:///home/murthy/PycharmProjects/qbetl/invoice/restviewsets.py&#10;ser&#9;FILE&#9;file:///home/murthy/PycharmProjects/qbetl/invoice/restserilizers.py&#10;TaxCode&#9;FILE&#9;file:///home/murthy/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/objects/taxcode.py&#10;Taxrate&#9;FILE&#9;file:///home/murthy/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/objects/taxrate.py&#10;url&#9;FILE&#9;file:///home/murthy/PycharmProjects/qbetl/qbetl/urls.py&#10;setting&#9;FILE&#9;file:///home/murthy/PycharmProjects/qbetl/qbetl/settings.py&#10;FieldMa&#9;null&#9;null&#10;views&#9;FILE&#9;file:///home/murthy/PycharmProjects/qbetl/invoice/views.py&#10;seri&#9;FILE&#9;file:///home/murthy/PycharmProjects/qbetl/invoice/restserilizers.py&#10;sett&#9;FILE&#9;file:///home/murthy/PycharmProjects/qbetl/qbetl/devsettings.py&#10;ur&#9;FILE&#9;file:///home/murthy/PycharmProjects/qbetl/qbetl/urls.py&#10;Customer&#9;null&#9;null&#10;CsvFi&#9;null&#9;null&#10;CsvF&#9;null&#9;null&#10;settin&#9;FILE&#9;file:///home/murthy/PycharmProjects/qbetl/qbetl/settings.py&#10;Token&#9;null&#9;null&#10;CSVF&#9;null&#9;null&#10;iop&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PillowExample" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/qbetl" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/invoice/management/commands" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.invoiceoperation">
+    <configuration name="invoiceoperation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="qbetl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/invoice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/invoice/invoiceoperation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="qbetl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/invoice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/invoice/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="qbetl" type="Python.DjangoServer" factoryName="Django server">
+      <module name="qbetl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.qbetl" />
+      <item itemvalue="Python.tests" />
+      <item itemvalue="Python.invoiceoperation" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.invoiceoperation" />
+        <item itemvalue="Python.tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96c7c0d2-ebae-422b-b6be-836dea0d7393" name="Default" comment="" />
+      <created>1527667119042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527667119042</updated>
+    </task>
+    <task id="LOCAL-00034" summary="added legacy filedmapping">
+      <created>1530857042030</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1530857042030</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Fix json">
+      <created>1530858285054</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1530858285054</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Added another legacy API">
+      <created>1530863122489</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1530863122489</updated>
+    </task>
+    <task id="LOCAL-00037" summary="added qbetldev.zemesoft.com">
+      <created>1531133755872</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1531133755872</updated>
+    </task>
+    <task id="LOCAL-00038" summary="added qbetldev.zemesoft.com">
+      <created>1531133827894</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1531133827894</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Added connection api">
+      <created>1531391051336</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1531391051336</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Added harcoded tAX">
+      <created>1531399547178</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1531399547178</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Added tax codes">
+      <created>1531400059970</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1531400059970</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Added tax codes">
+      <created>1531400665687</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1531400665687</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Added tax codes">
+      <created>1531400769967</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1531400769967</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Added tax codes">
+      <created>1531400836958</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1531400836958</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Added tax codes">
+      <created>1531401082814</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1531401082814</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Added tax codes">
+      <created>1531401326711</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1531401326711</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Added tax codes">
+      <created>1531401473176</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1531401473176</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Added tax codes">
+      <created>1531401618402</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1531401618402</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Added tax codes">
+      <created>1531403941526</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1531403941526</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Added tax codes">
+      <created>1531404422481</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1531404422482</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Added tax codes">
+      <created>1531405775084</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1531405775084</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Added tax codes">
+      <created>1531406658136</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1531406658136</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Added tax codes">
+      <created>1531407772449</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1531407772449</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Added tax codes">
+      <created>1531408915843</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1531408915843</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Added tax codes">
+      <created>1531409185434</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1531409185434</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Added tax codes">
+      <created>1531413974345</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1531413974345</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Added tax codes">
+      <created>1531413999371</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1531413999371</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Added tax codes">
+      <created>1531415651741</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1531415651741</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Added tax codes">
+      <created>1531426210156</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1531426210157</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Added tax codes">
+      <created>1531426427766</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1531426427766</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Added tax codes">
+      <created>1531426647254</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1531426647254</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Added tax codes">
+      <created>1531427068029</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1531427068029</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Added tax codes">
+      <created>1531427284689</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1531427284689</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Added tax codes">
+      <created>1531427507427</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1531427507427</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Added tax codes">
+      <created>1531427927949</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1531427927949</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Added tax codes">
+      <created>1531429397316</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1531429397317</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Added tax codes">
+      <created>1531429450707</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1531429450707</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Added tax codes">
+      <created>1531429830105</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1531429830105</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Added tax codes">
+      <created>1531429869191</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1531429869191</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Added tax codes">
+      <created>1531430194529</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1531430194529</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Added tax codes">
+      <created>1531430363482</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1531430363482</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Added tax codes">
+      <created>1531430436351</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1531430436351</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Added tax codes">
+      <created>1531430466439</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1531430466439</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Added tax codes">
+      <created>1531430625019</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1531430625019</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Added tax codes">
+      <created>1531430804674</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1531430804674</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Added tax codes">
+      <created>1531431841246</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1531431841246</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Added tax codes">
+      <created>1531432360374</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1531432360374</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Added tax codes">
+      <created>1531432728402</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1531432728402</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Added tax codes">
+      <created>1531432775804</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1531432775804</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Added tax codes">
+      <created>1531433275530</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1531433275530</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Added tax codes">
+      <created>1531474232340</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1531474232341</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Added AR reports">
+      <created>1536749380131</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1536749380132</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="40" y="-11" width="1327" height="780" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22830336" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32763976" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298193" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32917318" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32917318" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added QB Connect apis for oAuth2 3 leg process" />
+    <MESSAGE value="added requirement.txt" />
+    <MESSAGE value="added migrations &#10;access_token and refresh_token ass text fields" />
+    <MESSAGE value="Added dynamic schema for redirect" />
+    <MESSAGE value="Redirect dynamic url" />
+    <MESSAGE value="added https callbacks" />
+    <MESSAGE value="removed sandbox" />
+    <MESSAGE value="added ser to csv serializer" />
+    <MESSAGE value="Added user to CsvFileSerilizer" />
+    <MESSAGE value="Added missing migrations" />
+    <MESSAGE value="Added invoice obj to save invoice" />
+    <MESSAGE value="Added get customers and items" />
+    <MESSAGE value="Added customer name to CsvResults" />
+    <MESSAGE value="Added post invoice" />
+    <MESSAGE value="Added print for request dtaa" />
+    <MESSAGE value="Added legacy invoce post" />
+    <MESSAGE value="added legacy fileds" />
+    <MESSAGE value="added legacy filedmapping" />
+    <MESSAGE value="Fix json" />
+    <MESSAGE value="Added another legacy API" />
+    <MESSAGE value="added qbetldev.zemesoft.com" />
+    <MESSAGE value="Added connection api" />
+    <MESSAGE value="Added harcoded tAX" />
+    <MESSAGE value="Added tax codes" />
+    <MESSAGE value="Added AR reports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added AR reports" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qbconnect/models.py</url>
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/qbconnect/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/objects/item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qbetl/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/rest_framework/authtoken/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invoice/management/commands/importcsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6750">
+          <caret line="385" column="8" selection-start-line="385" selection-start-column="8" selection-end-line="385" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/setuptools/command/easy_install.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="1617" column="8" selection-start-line="1617" selection-start-column="8" selection-end-line="1617" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/rauth/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6264">
+          <caret line="361" column="7" lean-forward="true" selection-start-line="361" selection-start-column="7" selection-end-line="361" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2321">
+          <caret line="185" column="36" lean-forward="true" selection-start-line="185" selection-start-column="36" selection-end-line="185" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invoice/customerrors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invoice/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="289" column="1" selection-start-line="289" selection-start-column="1" selection-end-line="289" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qbconnect/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/objects/customer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-941">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9816">
+          <caret line="654" column="8" selection-start-line="654" selection-start-column="8" selection-end-line="654" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/django/db/models/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invoice/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qbconnect/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" lean-forward="true" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/objects/tax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invoice/management/commands/qbobjects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/objects/taxrate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/objects/taxcode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invoice/restviewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/objects/invoice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="65" column="21" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/objects/detailline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="111" column="6" selection-start-line="111" selection-start-column="6" selection-end-line="111" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invoice/restserilizers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="59" column="113" selection-start-line="59" selection-start-column="113" selection-end-line="59" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qbetl/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2592">
+          <caret line="145" column="28" selection-start-line="145" selection-start-column="28" selection-end-line="145" selection-end-column="28" />
+          <folding>
+            <element signature="e#306#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qbetl/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invoice/csvfileutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="139" column="4" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invoice/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+          <folding>
+            <element signature="e#588#643#0" />
+            <element signature="e#830#947#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qbetl/devsettings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qbetl/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+          <folding>
+            <element signature="e#629#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invoice/invoiceoperation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2232">
+          <caret line="133" column="21" selection-start-line="133" selection-start-column="21" selection-end-line="133" selection-end-column="21" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenv/qbetl/lib/python3.5/site-packages/quickbooks/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="145" column="25" selection-start-line="145" selection-start-column="21" selection-end-line="145" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invoice/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="282" column="44" selection-start-line="282" selection-start-column="29" selection-end-line="282" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

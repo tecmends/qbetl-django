@@ -1,0 +1,2 @@
+class InvalidItemRef(Exception):
+    pass
